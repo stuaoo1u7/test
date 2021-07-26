@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM ubuntu:18.04
+FROM circleci/php:7.3-node-browsers
 
 # Switch to root user
 USER root
